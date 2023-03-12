@@ -3,6 +3,8 @@ header {
     ;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+    width: 100%
 }
 
 .mainmenu {
@@ -34,6 +36,9 @@ header {
 }
 .container1 {
     display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%
 }
 .container1img {
     width: 100%;
@@ -41,20 +46,27 @@ header {
 .square {
     
     display: flex;
-    /* justify-content: center;
-    position: absolute; 
-    z-index: 1; */
+    position: absolute;
+    /* left: 50%;
+    right: 50%; */
+    z-index: 2;
+    top: 1175px;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+
 }
 .square2 {
+    width: 50%;
     background: #2F542C;
-    
-    position: absolute; 
-    z-index: 1;
 }
+
 .container2 {
     background: #F3E4D4;
     display: flex;
     justify-content: center;
-    
-    
+    position: relative;
+}
+.incont {
+
 }
