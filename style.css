@@ -50,16 +50,22 @@ header {
     /* left: 50%;
     right: 50%; */
     z-index: 2;
-    top: 1175px;
+    top: 1100px;
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
 
 }
 .square2 {
-    width: 50%;
+    width: 70%;
     background: #2F542C;
+    /* display: inline;
+   
+    float: left; */
+    /* padding: 60px 100px 60px 100px; */
 }
+
+
 
 .container2 {
     background: #F3E4D4;
@@ -67,6 +73,21 @@ header {
     justify-content: center;
     position: relative;
 }
-.incont {
+
+.inblock {
+    width: 60%;
+    padding: 60px 100px 60px 100px;
 
 }
+.inblock2 {
+    width: 30%;
+    padding: 60px 100px 60px;
+
+}
+.anone {
+    display: flex;
+    
+}
+/* .span1 {
+    font-size: 20px;
+} */
