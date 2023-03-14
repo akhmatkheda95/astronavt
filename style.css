@@ -64,16 +64,56 @@ header {
     float: left; */
     /* padding: 60px 100px 60px 100px; */
 }
-
-
+.anons {
+    font-size: 40px;
+}
+.smotret {
+    font-size: 20px; 
+    padding-top: 20px;
+    padding-bottom: 120px; 
+    color:#2F542C; 
+    font-weight: bold;
+}
 
 .container2 {
     background: #F3E4D4;
     display: flex;
-
+    justify-content: space-around;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+.incont {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    background: #F3E4D4;
+}
+.blockincont {
+    width: 20%;
+}
+.imginblock {
+    display: block; 
     position: relative;
 }
-
+.imginblock2 {
+    display: block; 
+    position: absolute; 
+    top: 1725px; 
+    left: 400px
+}
+.vstrecha {
+    background: #2F542C; 
+    position: absolute; 
+    top: 1600px; 
+    padding: 15px; 
+    left: 640px;
+}
+.datatheme {
+    position: absolute; 
+    top: 1850px; 
+    left: 150px;
+}
 .inblock {
     width: 60%;
     padding: 60px 100px 60px 100px;
