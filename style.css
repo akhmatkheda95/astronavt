@@ -117,7 +117,7 @@ header {
     height: 15px;
 
     /* left: 640px; */
-    margin-left: 512px;
+    margin-left: 506px;
 }
 .datatheme {
     position: absolute; 
@@ -130,7 +130,7 @@ header {
 
 }
 .inblock2 {
-    width: 30%;
+    width: 25%;
     padding: 60px 100px 60px;
 
 }
@@ -141,3 +141,14 @@ header {
 /* .span1 {
     font-size: 20px;
 } */
+.blockincont3 {
+    width: 10%;
+    display: flex;
+    
+}
+.imginblock3 {
+    position: absolute; 
+    display: block;
+    top: 2400px;
+    margin-left: 170px;
+}
